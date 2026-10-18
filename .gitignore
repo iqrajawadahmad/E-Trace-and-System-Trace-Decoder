@@ -1,0 +1,7 @@
+﻿# Ignore generated Eclipse metadata
+**/.metadata/
+**/.settings/
+**/*.log
+
+# Ignore large media files unless intentionally tracked
+*.mp4
