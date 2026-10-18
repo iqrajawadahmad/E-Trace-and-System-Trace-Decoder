@@ -266,22 +266,6 @@ into one complete workflow for analyzing RISC-V execution behavior.
 
 ---
 
-## 12. Suggested GitHub Repository Name
-
-A clean GitHub repo name for this project could be:
-
-```text
-cva6-trace-profiler
-```
-
-or
-
-```text
-cva6-riscv-trace-eclipse
-```
-
----
-
 ## 13. Summary
 
 This project provides a complete trace analysis and profiling workflow for the CVA6 processor with:
@@ -295,31 +279,4 @@ This project provides a complete trace analysis and profiling workflow for the C
 
 It is a strong example of hardware-software co-analysis and developer tooling for modern processor debugging and optimization.
 
----
 
-## 14. License
-
-This project is intended for academic or research use. Add a license file if you plan to publish it publicly on GitHub.
-
----
-
-## 15. GitHub Upload Notes
-
-Before pushing to GitHub:
-
-1. Create a new repository on GitHub
-2. Initialize with a title such as `cva6-trace-profiler`
-3. Commit the contents of this project
-4. Push the branch to GitHub
-5. Optionally add screenshots or a demo video from the project
-
-Example commands:
-
-```bash
-git init
-git add .
-git commit -m "Initial project upload"
-git branch -M main
-git remote add origin https://github.com/<username>/cva6-trace-profiler.git
-git push -u origin main
-```
